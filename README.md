@@ -1,5 +1,11 @@
 # AWS_Streaming_Platform
-This is a streaming platform provided by Amazon Web Services.
+Dies ist eine von AWS bereitgestellte Streaming - Plattform.
+
+## Motivation
+Im Rahmen der Lehrveranstaltung "Modern Networks" wurde an der FH Campus Wien dieses AWS Projekt umgesetzt. Wie der Titel bereits vermuten lässt bietet diese Plattform die Möglichkeit Videos zu streamen.
+
+## Ersteller
+Hannes Niederwolfsgruber, Alex Lechner
 
 ## License
 Phantom by HTML5 UP
