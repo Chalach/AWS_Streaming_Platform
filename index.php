@@ -22,7 +22,7 @@
 						<div class="inner">
 
 							<!-- Logo -->
-								<a href="index.html" class="logo">
+								<a href="index.php" class="logo">
 									<span class="symbol">
 										<img src="images/icons8-amazon-web-services.svg" alt="Amazon Web Services icon by Icons8" />
 									</span>
@@ -43,7 +43,7 @@
 					<nav id="menu">
 						<h2>Menu</h2>
 						<ul>
-							<li><a href="index.html">Home</a></li>
+							<li><a href="index.php">Home</a></li>
 							<li><a href="impressum.html">Impressum</a></li>
 							<li><a href="credits.html">Credits</a></li>
 						</ul>
@@ -55,13 +55,24 @@
 							<header>
 								<h1>Dies ist eine von AWS bereitgestellte<br /> Streaming - Plattform.</h1>
 								<p>Erleben Sie ein neues atemberaubendes Streaming Erlebnis mit der gesamten Familie.</p>
+								<br>
+								<?php 
+									session_start();
+									if(isset($_SESSION["username"])) {
+										echo "<span>Sie sind mit dem Benutzer <b>". $_SESSION["username"] ."</b> angemeldet.</span><br>";
+										echo "<a href='login/logout.php'>Abmelden</a>";
+									} else {
+										echo "<span>Sie müssen sich anmelden um Videos anschauen zu können!</span><br>";
+										echo "<a href='login/login.php'>Anmelden</a>";
+									}
+								?>
 							</header>
 							<section class="tiles">
 								<article class="style1">
 									<span class="image">
 										<img src="images/pic01.jpg" alt="" />
 									</span>
-									<a href="video1.html">
+									<a href="video1.php">
 										<h2>Magna</h2>
 										<div class="content">
 											<img style="width: 80%; height: 80%;" src="images/icons8-amazon-web-services.svg"/>
@@ -74,7 +85,7 @@
 									<span class="image">
 										<img src="images/pic02.jpg" alt="" />
 									</span>
-									<a href="video2.html">
+									<a href="video2.php">
 										<h2>Lorem</h2>
 										<div class="content">
 											<img style="width: 80%; height: 80%;" src="images/icons8-amazon-web-services.svg"/>
@@ -86,7 +97,7 @@
 									<span class="image">
 										<img src="images/pic03.jpg" alt="" />
 									</span>
-									<a href="video3.html">
+									<a href="video3.php">
 										<h2>Feugiat</h2>
 										<div class="content">
 											<img style="width: 80%; height: 80%;" src="images/icons8-amazon-web-services.svg"/>
@@ -98,7 +109,7 @@
 									<span class="image">
 										<img src="images/pic04.jpg" alt="" />
 									</span>
-									<a href="video4.html">
+									<a href="video4.php">
 										<h2>Tempus</h2>
 										<div class="content">
 											<img style="width: 80%; height: 80%;" src="images/icons8-amazon-web-services.svg"/>

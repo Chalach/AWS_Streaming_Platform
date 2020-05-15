@@ -4,6 +4,12 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
+<?php
+include ('login/db.php');
+include ('login/auth.php');
+?>
+
 <html>
 	<head>
 		<title>Streaming Plattform</title>
@@ -22,7 +28,7 @@
 						<div class="inner">
 
 							<!-- Logo -->
-								<a href="index.html" class="logo">
+								<a href="index.php" class="logo">
 									<span class="symbol"><img src="images/icons8-amazon-web-services.svg" alt="Amazon Web Services icon by Icons8" /></span>
 									<span class="title">Streaming Plattform</span>
 								</a>
@@ -41,7 +47,7 @@
 					<nav id="menu">
 						<h2>Menu</h2>
 						<ul>
-							<li><a href="index.html">Home</a></li>
+							<li><a href="index.php">Home</a></li>
 							<li><a href="impressum.html">Impressum</a></li>
 							<li><a href="credits.html">Credits</a></li>
 						</ul>
