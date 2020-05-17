@@ -30,7 +30,7 @@ include ('login/auth.php');
 							<!-- Logo -->
 								<a href="index.php" class="logo">
 									<span class="symbol"><img src="images/icons8-amazon-web-services.svg" alt="Amazon Web Services icon by Icons8" /></span>
-									<span class="title">Streaming Plattform @ <?php echo $_SERVER["REMOTE_ADDR"]; ?></span>
+									<span class="title">Streaming Plattform @ <?php echo $_SERVER['SERVER_ADDR']; ?></span>
 								</a>
 
 							<!-- Nav -->
