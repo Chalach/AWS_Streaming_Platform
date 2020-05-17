@@ -30,7 +30,7 @@ include ('login/auth.php');
 							<!-- Logo -->
 								<a href="index.php" class="logo">
 									<span class="symbol"><img src="images/icons8-amazon-web-services.svg" alt="Amazon Web Services icon by Icons8" /></span>
-									<span class="title">Streaming Plattform</span>
+									<span class="title">Streaming Plattform @ <?php echo $_SERVER["REMOTE_ADDR"]; ?></span>
 								</a>
 
 							<!-- Nav -->
@@ -56,9 +56,9 @@ include ('login/auth.php');
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Video</h1>
+							<h1>Wasserfall</h1>
 							<video controls>
-								<source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+								<source src="https://new-streaming-bucket.s3.amazonaws.com/05_waterfall.mp4" type="video/mp4">
 							</video>
 							<br>
 							<br>

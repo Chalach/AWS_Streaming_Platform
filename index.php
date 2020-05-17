@@ -26,7 +26,7 @@
 									<span class="symbol">
 										<img src="images/icons8-amazon-web-services.svg" alt="Amazon Web Services icon by Icons8" />
 									</span>
-									<span class="title">Streaming Plattform</span>
+									<span class="title">Streaming Plattform @ <?php echo $_SERVER["REMOTE_ADDR"]; ?></span>
 								</a>
 
 							<!-- Nav -->
@@ -53,10 +53,10 @@
 					<div id="main">
 						<div class="inner">
 							<header>
-								<h1>Dies ist eine von AWS bereitgestellte<br /> Streaming - Plattform.</h1>
+								<h1>Eine von AWS bereitgestellte<br /> Streaming - Plattform.</h1>
 								<p>Erleben Sie ein neues atemberaubendes Streaming Erlebnis mit der gesamten Familie.</p>
 								<br>
-								<?php 
+								<?php
 									session_start();
 									if(isset($_SESSION["username"])) {
 										echo "<span>Sie sind mit dem Benutzer <b>". $_SESSION["username"] ."</b> angemeldet.</span><br>";
@@ -73,7 +73,7 @@
 										<img src="images/pic01.jpg" alt="" />
 									</span>
 									<a href="video1.php">
-										<h2>Magna</h2>
+										<h2>Wellen</h2>
 										<div class="content">
 											<img style="width: 80%; height: 80%;" src="images/icons8-amazon-web-services.svg"/>
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
@@ -86,7 +86,7 @@
 										<img src="images/pic02.jpg" alt="" />
 									</span>
 									<a href="video2.php">
-										<h2>Lorem</h2>
+										<h2>Quang</h2>
 										<div class="content">
 											<img style="width: 80%; height: 80%;" src="images/icons8-amazon-web-services.svg"/>
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
@@ -98,7 +98,7 @@
 										<img src="images/pic03.jpg" alt="" />
 									</span>
 									<a href="video3.php">
-										<h2>Feugiat</h2>
+										<h2>Strand</h2>
 										<div class="content">
 											<img style="width: 80%; height: 80%;" src="images/icons8-amazon-web-services.svg"/>
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
@@ -110,7 +110,7 @@
 										<img src="images/pic04.jpg" alt="" />
 									</span>
 									<a href="video4.php">
-										<h2>Tempus</h2>
+										<h2>Strasse</h2>
 										<div class="content">
 											<img style="width: 80%; height: 80%;" src="images/icons8-amazon-web-services.svg"/>
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
@@ -121,8 +121,8 @@
 									<span class="image">
 										<img src="images/pic05.jpg" alt="" />
 									</span>
-									<a href="video5.html">
-										<h2>Aliquam</h2>
+									<a href="video5.php">
+										<h2>Wasserfall</h2>
 										<div class="content">
 											<img style="width: 80%; height: 80%;" src="images/icons8-amazon-web-services.svg"/>
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
@@ -133,8 +133,8 @@
 									<span class="image">
 										<img src="images/pic06.jpg" alt="" />
 									</span>
-									<a href="video6.html">
-										<h2>Veroeros</h2>
+									<a href="video6.php">
+										<h2>Wolken</h2>
 										<div class="content">
 											<img style="width: 80%; height: 80%;" src="images/icons8-amazon-web-services.svg"/>
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
