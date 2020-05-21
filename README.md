@@ -1,40 +1,13 @@
 # AWS_Streaming_Platform
-Dies ist eine von AWS bereitgestellte Streaming - Plattform.
+Das Projekt wurde im Rahmen der Lehrveranstaltung Modern Networks erstellt. Die Architektur des Streaming Dienstes basiert auf AWS.
 
-## Motivation
-Im Rahmen der Lehrveranstaltung "Modern Networks" wurde an der FH Campus Wien dieses AWS Projekt umgesetzt. Wie der Titel bereits vermuten lässt bietet diese Plattform die Möglichkeit Videos zu streamen.
+Die Streaming Plattform bietet dem Kunden ein einzigartiges Streaming Erlebnis. Dabei liefert die Webseite spannende und unterhaltsame Videos für groß und klein. Ohne Anmeldung kann der Kunde eine Liste von verfügbaren Videos aufrufen. Nach erfolgreichem Login kann der Kunde nun vollwertig auf das Streamingangebot zugreifen.
 
-## Ersteller
-Hannes Niederwolfsgruber, Alex Lechner
+## Autoren
+<img style="float: right;" src="https://img.icons8.com/carbon-copy/100/000000/user.png" alt="" />Hannes Niederwolfsgruber  
+<img style="float: right;" src="https://img.icons8.com/carbon-copy/100/000000/user.png" alt="" />Alex Lechner
 
-## License
-Phantom by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-
-This is Phantom, a simple design built around a grid of large, colorful, semi-interactive
-image tiles (of which you can have as many or as few as you like). Makes use of some
-SVG and animation techniques I've been experimenting with on that other project of mine
-you may have heard about (https://carrd.co), and includes a handy generic page for whatever.
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+> *Computer Science and Digital Communications
+> [FH Campus Wien](https://www.fh-campuswien.ac.at/), Favoritenstraße 226 1100 Wien
+> Tel: +43 1 606 68 77-6600, Fax: +43 1 606 68 77-6609, [e-mail](mailto:informatik@fh-campuswien.ac.at)*  
+> 4. Semester Copyright (C) 2020
